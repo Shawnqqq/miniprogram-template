@@ -1,0 +1,38 @@
+.pd-tips{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .5s ease;
+    text-align: center;
+    transform: translateY(-100%);
+    opacity: 0;
+    box-shadow: 4rpx 4rpx 4rpx rgba(0,0,0,.2);
+    padding: 40rpx 0;
+    z-index: 999;
+}
+
+.pd-tips.success{
+    background: #00a7ff;
+}
+.pd-tips.error{
+    background: #E64340;
+}
+
+.pd-tips.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.pd-tips-content{
+    display: inline-block;
+    line-height: 40rpx;
+    border-radius: 20rpx;
+    font-size: 28rpx;
+    color: #fff;
+}
+
+.pd-tips-text{
+    margin-left: 10rpx;
+    vertical-align: middle;
+}

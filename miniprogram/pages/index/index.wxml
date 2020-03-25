@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<pd-loading is-show="{{!pageShow}}"></pd-loading>
+<view class="page-container" wx:if="{{pageShow}}">
+  INDEX PAGE
+</view>

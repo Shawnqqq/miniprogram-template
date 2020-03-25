@@ -1,0 +1,41 @@
+/**app.wxss**/
+@import './weui.wxss';
+
+page{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #333;
+  font-family: 
+    PingFangSC-Regular,
+    'STHeiti Light',
+    'helvetica neue',
+    'hiragino sans gb',
+    arial,
+    'microsoft yahei ui',
+    'microsoft yahei',
+    simsun,
+    sans-serif;
+}
+
+.page-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+view {
+  box-sizing: border-box;
+}
+
+button::after{
+  display: none;
+}
+
+/* 超过量省略 */
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

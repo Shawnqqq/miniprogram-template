@@ -1,0 +1,5 @@
+<view class="pd-tips {{type}} {{title ? 'active' : ''}}">
+    <view class="pd-tips-content">
+        <text class="pd-tips-text">{{title}}</text>
+    </view>
+</view>
